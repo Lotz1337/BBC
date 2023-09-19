@@ -1,0 +1,157 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+main {
+  margin-left: 10px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  height: 55px;
+  background-color: black;
+  color: white;
+}
+nav *{
+  float: left;
+  width: 10%;
+  color: white;
+  display: block;
+}
+nav ul {
+  width: 50%;
+}
+
+nav form input {
+  width: 500%;
+  margin-top: 10px;
+}
+h1 {
+  margin-left: 45px;
+}
+
+.middleEast {
+  float: left;
+  margin-left: 45px;
+  width: 40%;
+  height: 410px;
+  color: white;
+  font-size: 13px;
+  background-image: url("https://arabcenterdc.org/wp-content/uploads/2022/07/Biden-Middle-East-Trip-MBS-meeting-Jeddah.jpg");
+}
+
+.middleEast h2 {
+  font-size: 25px;
+}
+
+.canada {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+  height: 200px;
+  color: white;
+  font-size: 13px;
+  background-image: url("https://svd.vgc.no/v2/images/39acffe7-b416-46fd-a4d0-bed5bf7d1ac2?fit=crop&h=551&q=80&upscale=true&w=980&s=f4993961358f355170dee7df8d55bfb8ab92f82b");
+}
+
+.health {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+  height: 200px;
+  color: white;
+  font-size: 13px;
+  background-image: url("https://www.kil.se/link/886519134bee44f0a0e63b05f29977e4.aspx");
+}
+
+.worklife {
+  float: left;
+  margin-left: 10px;
+  width: 25%;
+  height: 200px;
+  color: white;
+  font-size: 13px;
+  background-image: url("https://api.time.com/wp-content/uploads/2021/02/laptop-home-office.jpg");
+}
+
+.culture {
+  float: left;
+  margin-left: 10px;
+  width: 25%;
+  height: 200px;
+  color: white;
+  font-size: 13px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpxkh8EuO26dF3-GZyJ-wbAWlnNJz3btAdTQ&usqp=CAU");
+}
+
+.news {
+  float: left;
+  clear: both;
+  margin-left: 45px;
+}
+
+.bidenHarris {
+  float: left;
+  clear: left;
+  margin-left: 45px;
+  max-width: 33.3333%;
+}
+
+.harris {
+  max-width: 100%;
+  height: 350px;
+}
+
+.protestors {
+  float: left;
+  margin-left: 45px;
+  max-width: 33.3333%;
+}
+
+.protest {
+  width: 100%;
+  height: 350px;
+}
+
+.trump {
+  float: left;
+  margin-left: 45px;
+  max-width: 33.3333%;
+}
+
+.trumped {
+  width: 100%;
+  height: 350px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

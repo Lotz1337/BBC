@@ -1,8 +1,6 @@
 # BBC
-Introduction
 Welcome to my first GitHub repository! This project is a recreation of the layout of the BBC starting page using HTML and CSS floats. The primary goal of this project is to practice and understand the use of CSS floats for layout purposes.
 
-Project Details
 Technology Stack: HTML, CSS
 Project Purpose: To recreate the layout of the BBC homepage using CSS floats for learning and practice.
 Project Status: Completed
